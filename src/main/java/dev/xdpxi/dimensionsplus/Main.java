@@ -1,10 +1,10 @@
 package dev.xdpxi.dimensionsplus;
 
+import dev.xdpxi.dimensionsplus.Blocks.EndGrass;
 import dev.xdpxi.dimensionsplus.Items.Crystalite;
 import dev.xdpxi.dimensionsplus.Items.Enderite;
 import dev.xdpxi.dimensionsplus.Items.Endium;
 import dev.xdpxi.dimensionsplus.Items.Lunara;
-import dev.xdpxi.xdlib.Logger;
 import net.fabricmc.api.ModInitializer;
 
 public class Main implements ModInitializer {
@@ -16,5 +16,7 @@ public class Main implements ModInitializer {
         Crystalite.init(); // Diamond
         Lunara.init(); // Gold
         Endium.init(); // Iron
+        
+        EndGrass.init();
     }
 }

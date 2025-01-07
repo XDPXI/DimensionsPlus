@@ -1,10 +1,13 @@
 {
   "block.dimensionsplus.end_grass": "End Grass",
-  "block.dimensionsplus.coal_end_ore": "Coal End Ore",
-  "block.dimensionsplus.iron_end_ore": "Iron End Ore",
-  "block.dimensionsplus.gold_end_ore": "Gold End Ore",
-  "block.dimensionsplus.diamond_end_ore": "Diamond End Ore",
-  "block.dimensionsplus.netherite_end_ore": "Netherite End Ore",
-  "item.dimensionsplus.dimensionsplus_item": "Dimensions Plus Item",
-  "itemGroup.dimensionsplus.dp_group": "Dimensions Plus"
+
+  "block.dimensionsplus.enderite_ore": "Enderite Ore",
+  "block.dimensionsplus.crystalite_ore": "Crystalite Ore",
+  "block.dimensionsplus.lunara_ore": "Lunara Ore",
+  "block.dimensionsplus.endium_ore": "Endium Ore",
+
+  "item.dimensionsplus.enderite": "Enderite",
+  "item.dimensionsplus.crystalite": "Crystalite",
+  "item.dimensionsplus.lunara": "Lunara",
+  "item.dimensionsplus.endium": "Endium"
 }
