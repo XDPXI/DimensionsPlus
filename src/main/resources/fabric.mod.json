@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dimensionsplus",
+  "version": "${version}",
+  "name": "Dimensions Plus",
+  "description": "Enhance your adventure with new features, creatures, and challenges in this Minecraft mod.",
+  "authors": [
+    "XDPXI"
+  ],
+  "icon": "assets/dimensionsplus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.xdpxi.dimensionsplus.Main"
+    ],
+    "client": [
+      "dev.xdpxi.dimensionsplus.Client"
+    ]
+  },
+  "mixins": [
+    "dimensionsplus.mixins.json",
+    {
+      "config": "dimensionsplus.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": ">=1.21 <=1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "xdlib": ">3.3.2",
+    "fiber-api": "*"
+  }
+}
