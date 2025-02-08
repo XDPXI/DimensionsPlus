@@ -33,10 +33,10 @@ public class Main implements ModInitializer {
         Log.info("[DimensionsPlus/ItemGroup] - Adding Items & Blocks to Item Group...");
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(EndGrass.END_GRASS);
-            itemGroup.add(Crystalite.CRYSTALITE);
-            itemGroup.add(Crystalite.CRYSTALITE_ORE);
             itemGroup.add(Enderite.ENDERITE);
             itemGroup.add(Enderite.ENDERITE_ORE);
+            itemGroup.add(Crystalite.CRYSTALITE);
+            itemGroup.add(Crystalite.CRYSTALITE_ORE);
             itemGroup.add(Lunara.LUNARA);
             itemGroup.add(Lunara.LUNARA_ORE);
             itemGroup.add(Endium.ENDIUM);
