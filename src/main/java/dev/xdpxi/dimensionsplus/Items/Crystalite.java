@@ -1,7 +1,7 @@
 package dev.xdpxi.dimensionsplus.Items;
 
 import dev.xdpxi.dimensionsplus.Main;
-import dev.xdpxi.xdlib.api.Register;
+import dev.xdpxi.xdlib.api.v3.Register;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
