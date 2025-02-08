@@ -29,7 +29,6 @@
     "minecraft": ">=1.21 <=1.21.1",
     "java": ">=21",
     "fabric-api": "*",
-    "xdlib": ">3.3.2",
-    "fiber-api": "*"
+    "xdlib": "*"
   }
 }

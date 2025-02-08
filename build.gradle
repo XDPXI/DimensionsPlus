@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.10.0-alpha.11'
+    id 'fabric-loom' version '1.10.0-alpha.18'
 }
 
 version = project.mod_version
@@ -35,7 +35,6 @@ dependencies {
     modImplementation("net.fabricmc:fabric-loader:${project.loader_version}")
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
     modImplementation("maven.modrinth:xdlib:${project.xdlib_version}")
-    modImplementation("maven.modrinth:fiber-api:${project.fiber_version}")
 }
 
 processResources {
