@@ -1,10 +1,9 @@
 {
-  "block.dimensionsplus.end_grass": "End Grass",
-
-  "block.dimensionsplus.enderite_ore": "Enderite Ore",
-  "block.dimensionsplus.crystalite_ore": "Crystalite Ore",
-  "block.dimensionsplus.lunara_ore": "Lunara Ore",
-  "block.dimensionsplus.endium_ore": "Endium Ore",
+  "item.dimensionsplus.end_grass": "End Grass",
+  "item.dimensionsplus.enderite_ore": "Enderite Ore",
+  "item.dimensionsplus.crystalite_ore": "Crystalite Ore",
+  "item.dimensionsplus.lunara_ore": "Lunara Ore",
+  "item.dimensionsplus.endium_ore": "Endium Ore",
 
   "item.dimensionsplus.enderite": "Enderite",
   "item.dimensionsplus.crystalite": "Crystalite",
