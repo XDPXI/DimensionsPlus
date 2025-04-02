@@ -1,6 +1,6 @@
 package dev.xdpxi.dimensionsplus;
 
-import dev.xdpxi.dimensionsplus.Utilities.Log;
+import dev.xdpxi.dimensionsplus.Util.Log;
 import net.fabricmc.api.ClientModInitializer;
 
 public class Client implements ClientModInitializer {

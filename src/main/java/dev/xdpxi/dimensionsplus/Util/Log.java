@@ -1,4 +1,4 @@
-package dev.xdpxi.dimensionsplus.Utilities;
+package dev.xdpxi.dimensionsplus.Util;
 
 import dev.xdpxi.dimensionsplus.Main;
 import org.slf4j.Logger;

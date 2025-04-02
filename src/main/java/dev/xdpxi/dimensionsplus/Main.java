@@ -5,7 +5,7 @@ import dev.xdpxi.dimensionsplus.Items.Crystalite;
 import dev.xdpxi.dimensionsplus.Items.Enderite;
 import dev.xdpxi.dimensionsplus.Items.Endium;
 import dev.xdpxi.dimensionsplus.Items.Lunara;
-import dev.xdpxi.dimensionsplus.Utilities.Log;
+import dev.xdpxi.dimensionsplus.Util.Log;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
