@@ -8,7 +8,9 @@ import net.minecraft.sound.BlockSoundGroup;
 
 public class EndGrass {
     public static final Block END_GRASS = Register.registerBlock(
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new Block(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.STONE)
+            ),
             "end_grass",
             Main.MOD_ID
     );

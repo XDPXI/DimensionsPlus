@@ -10,13 +10,17 @@ import net.minecraft.util.Rarity;
 
 public class Endium {
     public static final Block ENDIUM_ORE = Register.registerBlock(
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new Block(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.STONE)
+            ),
             "endium_ore",
             Main.MOD_ID
     );
 
     public static final Item ENDIUM = Register.registerItem(
-            new Item(new Item.Settings().rarity(Rarity.COMMON)),
+            new Item(new Item.Settings()
+                    .rarity(Rarity.COMMON)
+            ),
             "endium",
             Main.MOD_ID
     );

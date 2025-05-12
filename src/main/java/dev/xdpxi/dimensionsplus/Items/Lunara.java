@@ -10,13 +10,17 @@ import net.minecraft.util.Rarity;
 
 public class Lunara {
     public static final Block LUNARA_ORE = Register.registerBlock(
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new Block(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.STONE)
+            ),
             "lunara_ore",
             Main.MOD_ID
     );
 
     public static final Item LUNARA = Register.registerItem(
-            new Item(new Item.Settings().rarity(Rarity.UNCOMMON)),
+            new Item(new Item.Settings()
+                    .rarity(Rarity.UNCOMMON)
+            ),
             "lunara",
             Main.MOD_ID
     );
