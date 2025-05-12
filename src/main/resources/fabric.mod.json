@@ -25,10 +25,10 @@
     }
   ],
   "depends": {
-    "fabricloader": ">=0.16.9",
+    "fabricloader": ">=0.16.14",
     "minecraft": "1.21.4",
     "java": ">=21",
     "fabric-api": "*",
-    "xdlib": "5.0.0-Alpha.2"
+    "xdlib": ">=5.0.0"
   }
 }
