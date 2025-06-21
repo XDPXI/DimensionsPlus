@@ -1,7 +1,7 @@
 package dev.xdpxi.dimensionsplus.Items;
 
 import dev.xdpxi.dimensionsplus.Main;
-import dev.xdpxi.xdlib.api.v5.Register;
+import dev.xdpxi.xdlib.api.v6.Register;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -12,7 +12,6 @@ public class Lunara {
     public static final Block LUNARA_ORE = Register.registerBlock(
             Block::new,
             AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE),
-            true,
             "lunara_ore",
             Main.MOD_ID
     );
