@@ -34,7 +34,7 @@ jobs:
 
       - name: Capture build artifacts
         if: ${{ matrix.java == '21' }}
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: Artifacts
           path: build/libs/
